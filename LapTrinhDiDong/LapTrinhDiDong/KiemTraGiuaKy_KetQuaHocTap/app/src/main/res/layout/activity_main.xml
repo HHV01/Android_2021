@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="9">
+
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/red"
+        android:text="Kết quả học tập"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="1dp"
+        android:layout_weight="0.6"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="4"
+        android:background="@color/teal_700"
+        android:layout_marginVertical="10dp"
+        android:weightSum="10"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:paddingRight="5dp"
+            >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Họ và tên (*):"
+                android:textAlignment="textEnd"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Điểm HK 1 (*):"
+                android:textAlignment="textEnd"
+                android:layout_marginTop="18dp"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Điểm HK 2 (*):"
+                android:textAlignment="textEnd"
+                android:layout_marginTop="24dp"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Điểm trung bình:"
+                android:textAlignment="textEnd"
+                android:layout_marginTop="24dp"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kết quả:"
+                android:textAlignment="textEnd"
+                android:layout_marginTop="24dp"/>
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xếp loại học lực:"
+                android:textAlignment="textEnd"
+                android:layout_marginTop="24dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_weight="6"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtFullName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="7"
+                android:inputType="textPersonName"
+                android:text="" />
+            <EditText
+                android:id="@+id/edtHK1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+            <EditText
+                android:id="@+id/edtHK2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+            <EditText
+                android:id="@+id/edtDTB"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+            <EditText
+                android:id="@+id/edtKetQua"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+            <EditText
+                android:id="@+id/edtHocLuc"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:background="@color/white"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnXemKetQua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xem kết quả"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/purple_200"
+            />
+
+        <Button
+            android:id="@+id/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/purple_200"/>
+
+        <Button
+            android:id="@+id/btnDong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đóng"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/purple_200"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.4"
+        android:background="@color/teal_200"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp">
+
+
+        <TextView
+            android:id="@+id/Tite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thông tin chi tiết"
+            android:background="@color/orange"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/txtHoTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Họ và tên: "
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/txtHK1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Điểm HK1: "
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/txtHK2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Điểm HK2: "
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:id="@+id/txtDTB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Điểm trung bình: "
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/txtKetQua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kết quả: "
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/txtHocLuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xếp loại học lực: "
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

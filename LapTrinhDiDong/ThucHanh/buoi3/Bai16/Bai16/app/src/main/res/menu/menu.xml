@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Công việc đã hoàn thành"/>
+
+    <item android:title="Công việc chưa hoàn thành"/>
+
+    <item   android:title="Xóa toàn bộ công việc"
+
+        />
+
+
+</menu>

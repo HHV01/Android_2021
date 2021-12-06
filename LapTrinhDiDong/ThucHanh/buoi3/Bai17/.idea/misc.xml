@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LapTrinhDiDong/Bai17/app/src/main/res/layout/activity_2.xml" value="0.36666666666666664" />
+        <entry key="..\:/LapTrinhDiDong/Bai17/app/src/main/res/layout/activity_album.xml" value="0.3491847826086957" />
+        <entry key="..\:/LapTrinhDiDong/Bai17/app/src/main/res/layout/activity_danh_sach_album.xml" value="0.36666666666666664" />
+        <entry key="..\:/LapTrinhDiDong/Bai17/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/LapTrinhDiDong/Bai17/app/src/main/res/layout/activity_quan_ly.xml" value="0.33" />
+        <entry key="..\:/LapTrinhDiDong/Bai17/app/src/main/res/layout/danhsach_album.xml" value="0.20520833333333333" />
+        <entry key="..\:/LapTrinhDiDong/Bai17/app/src/main/res/layout/danhsachalbum_layout.xml" value="0.20520833333333333" />
+        <entry key="..\:/LapTrinhDiDong/Bai17/app/src/main/res/layout/layout_custom_dialog.xml" value="0.3491847826086957" />
+        <entry key="..\:/LapTrinhDiDong/Bai17/app/src/main/res/layout/list_ablum.xml" value="0.353713768115942" />
+        <entry key="..\:/LapTrinhDiDong/Bai17/app/src/main/res/layout/list_single.xml" value="0.353713768115942" />
+        <entry key="..\:/LapTrinhDiDong/Bai17/app/src/main/res/layout/single_baihat_layout.xml" value="0.5" />
+        <entry key="..\:/LapTrinhDiDong/Bai17/app/src/main/res/layout/single_list.xml" value="0.33" />
+        <entry key="..\:/LapTrinhDiDong/Bai17/app/src/main/res/layout/single_list_constraint_layout.xml" value="0.4148148148148148" />
+        <entry key="..\:/LapTrinhDiDong/Bai17/app/src/main/res/layout/single_spinner_layout.xml" value="0.5" />
+        <entry key="..\:/LapTrinhDiDong/buoi3/Bai17/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/LapTrinhDiDong/buoi3/Bai17/app/src/main/res/layout/activity_quan_ly.xml" value="0.264" />
+        <entry key="..\:/LapTrinhDiDong/buoi3/Bai17/app/src/main/res/layout/layout_custom_dialog.xml" value="0.2" />
+        <entry key="..\:/LapTrinhDiDong/buoi3/Bai17/app/src/main/res/layout/single_list.xml" value="0.264" />
+        <entry key="..\:/LapTrinhDiDong/buoi3/Bai17/app/src/main/res/layout/single_list_constraint_layout.xml" value="0.4" />
+        <entry key="..\:/LapTrinhDiDong/buoi3/Bai17/app/src/main/res/layout/single_spinner_layout.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
